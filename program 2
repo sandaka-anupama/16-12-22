@@ -1,0 +1,13 @@
+#TO COUNT THE NUMBER OF ALPHABETS in tyhe given string
+str=input('Enter a string:')
+length=len(str)
+k=0
+for i in range(0,length):
+    if str[i].isalpha()==1:
+        k=k+1
+print(k)
+
+output:
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/str.py ==
+Enter a string:casio123ogr
+8
