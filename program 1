@@ -1,0 +1,31 @@
+#NO.OF CHARACTERS IN A STRING
+str=input('Enter a string:')
+length=len(str)
+k=0
+for i in range(0,length):
+    k=k+1
+print("no.of characters in the string:",k)
+
+#CONVERTING UPPER CASE TO LOWER CASE
+str=input('Enter a string:')
+print(str.lower())
+
+
+#CONVERTING LOWER CASE TO UPPER CASE
+str=input('Enter a string:')
+print(str.upper())
+
+#CONVERTING UPPER CASE TO LOWER CASE and LOWER CASE TO UPPER CASE
+str=input('Enter a string:')
+print(str.swapcase())
+
+output:
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/str.py ==
+Enter a string:coding
+no.of characters in the string: 6
+Enter a string:CODERS
+coders
+Enter a string:python
+PYTHON
+Enter a string:ProGRammInG
+pROgrAMMiNg
